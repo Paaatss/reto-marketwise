@@ -159,6 +159,7 @@ a {text-decoration: none;}
   font-size: 60px;
   color: rgb(22, 191, 137);
 }
+
 .capsulas {
   display:flex;
   justify-content: center;
@@ -171,7 +172,6 @@ a {text-decoration: none;}
   display: flex;
   align-items: center;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 .capsula-float {
     border: solid 3px #6b6b6b;
