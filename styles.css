@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a {text-decoration: none;}
+
+/* NAVBAR ESTILOS  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 70px;
+  background-color:rgb(0, 0, 0);
+  position:static;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.marcaicon {
+  font-size: 27px;
+  color: #fff;
+}
+.marca {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 20px;
+  color: #fff;
+}
+.link-p{
+  padding-right: 20px; color: #fff;
+  font-weight: 600;
+} 
+.link-p:hover {
+  color:rgb(22, 191, 137);
+}
+
+/* ESTILOS DE PRIMERA SECCION */
+
+/* CONTENEDROES */
+.inicio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 900PX;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.588);
+  box-sizing: border-box;
+}
+
+.titulo {
+  text-align: center;
+}
+
+/* elementos */
+.title {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+.bbtitle {
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  color: rgb(22, 191, 137);
+  /* padding-top: -40px; */
+}
+
+.subtitulo {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.mini-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.capsula {
+  background-color: black;
+  color:rgb(22, 191, 137);
+  width: fit-content;
+  height: 30px;
+  border: 0px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-right: 20px;
+
+}
+
+.plataforma-title {
+  font-weight: 800;
+  padding-right: 5px;
+}
+
+.ads {
+  font-weight: 100;
+  font-size: smaller;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.text-hidden {
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.arrow {
+  rotate: 25grad;
+  size: 20px;
+  padding-left: 10px;
+}
+
+
+/* SEGUNDA SECCION  */
+.dos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 150px;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.container-cap {
+  position: relative;
+  overflow: hidden;
+  width: 1418px;
+  height: 399px;
+  margin-top: 75px;
+}
+
+.t1 {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+.t2 {
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  color: rgb(22, 191, 137);
+}
+.capsulas {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+ 
+}
+
+.cap-container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.capsula-float {
+    border: solid 3px #6b6b6b;
+    box-sizing: border-box;
+    height:fit-content;
+    transform-origin: 0px 0px !important;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 200;
+    color: #6b6b6b;
+    margin: 10px;
+}
+
+
+.cap-style {
+  color: rgb(206, 206, 206);
+  width:fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* terera seccion  */
+.card-section {
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.t3 {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 80px;
+}
+.borde {
+  border: 1px rgb(0, 255, 153);
+  color: #ffff;
+  padding-top: 30px;
+}
+
+
+
+/* ANIMACIONES */
+
+.capsula:hover {
+  background-color: rgb(22, 191, 137);
+  color: black;
+  border: 0px;
+}
+
+.scale-up-horizontal-left {
+  animation: scale-up-horizontal-left 0.5s
+}
+
+.morado:hover {
+  border-color:  #c509e7;
+  color: #c509e7;}
+.blanco:hover {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+.verde:hover {
+  border-color: rgb(0, 255, 153);
+  color:rgb(0, 255, 153);
+}
+.azul:hover {
+  border-color: rgb(0, 187, 255);
+  color:rgb(0, 187, 255);
+}
+@keyframes scale-up-horizontal-left {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: left center
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: left center
+  }
+}
+
