@@ -10,8 +10,9 @@ a {text-decoration: none;}
   box-sizing: border-box;
   padding: 20px;
   height: 70px;
-  background-color:rgb(0, 0, 0);
-  position:static;
+  background-color:rgba(0, 0, 0, 0.41);
+  position:fixed;
+  
 }
 .home {
   display: flex;
@@ -30,6 +31,9 @@ a {text-decoration: none;}
   font-size: 20px;
   padding-left: 20px;
   color: #fff;
+}
+.links {
+  margin-left: 400px;
 }
 .link-p{
   padding-right: 20px; color: #fff;
@@ -50,6 +54,11 @@ a {text-decoration: none;}
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.588);
   box-sizing: border-box;
+
+  background-image: url('./youtube-video-gif.gif');
+  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .titulo {
@@ -220,13 +229,23 @@ a {text-decoration: none;}
 .btncontact {
   background-color: rgb(43, 42, 42);
   color:rgb(22, 191, 137);
- width: fit-content;
+ width: 160px;
+ border-radius: 20px;
+ margin-top: 10px;
+ margin-bottom: 10px;
 }
 
 .ligth {
   color:rgb(22, 191, 137);
 }
 
+.space {
+  margin-top: 20px;
+}
+.cont2 {
+  margin-top: 60px;
+  height:600px;
+}
 /* ANIMACIONES */
 
 .capsula:hover {
