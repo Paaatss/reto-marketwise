@@ -147,16 +147,16 @@ a {text-decoration: none;}
 }
 
 .t1 {
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   color: rgb(255, 255, 255);
 }
 
 .t2 {
   font-weight: 900;
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   color: rgb(22, 191, 137);
 }
 
@@ -211,12 +211,21 @@ a {text-decoration: none;}
   margin-top: 80px;
 }
 .borde {
-  border: 1px rgb(0, 255, 153);
   color: #ffff;
   padding-top: 30px;
+  width: 550px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.btncontact {
+  background-color: rgb(43, 42, 42);
+  color:rgb(22, 191, 137);
+ width: fit-content;
 }
 
-
+.ligth {
+  color:rgb(22, 191, 137);
+}
 
 /* ANIMACIONES */
 
